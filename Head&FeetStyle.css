@@ -1,8 +1,10 @@
+/* NAV BAR START*/
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans',sans-serif;
+    font-family: sans-serif;
 }
 
 .navbar{
@@ -39,10 +41,6 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-}
-
-.fa-gem{
-    margin-right: 0.5rem;
 }
 
 .navbar_menu{
@@ -195,3 +193,120 @@
     }
 
 }
+
+/* NAV BAR END*/
+
+/* FOOTER START*/
+
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+    overflow: auto;
+    padding: 0 30px;
+}
+
+li{
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1{
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    width: 10;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.py-5 {
+    padding: 4rem 0;
+}
+
+.footer .social a {
+    margin: 5px;
+}
+
+:root{
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+
+}
+
+.bg-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.bg-secondary{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.bg-dark{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.bg-light{
+    background-color: var(--light-color);
+    color: #333;
+}
+
+  .fa-github:hover {
+    color: #000000;
+}
+  
+  .fa-facebook:hover {
+    color: #1773EA;
+}
+  
+  .fa-instagram:hover {
+    color: #B32E87;
+}
+  
+  .fa-twitter:hover {
+    color: #1C9CEA;
+}
+
+  .ftl:hover{
+    color: #1091d6;
+    transition: all 0.3s ease;
+}
+
+.footer_container{
+    background-color: var(--dark-color);
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+  
+/* FOOTER END*/
