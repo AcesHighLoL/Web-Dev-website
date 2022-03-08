@@ -262,37 +262,41 @@ ul {
     background-color: var(--primary-color);
     color: #fff;
 }
+
 .bg-secondary{
     background-color: var(--secondary-color);
     color: #fff;
 }
+
 .bg-dark{
     background-color: var(--dark-color);
     color: #fff;
 }
+
 .bg-light{
     background-color: var(--light-color);
     color: #333;
 }
 
-  .fa-github:hover {
+.fa-github:hover {
     color: #000000;
 }
   
-  .fa-facebook:hover {
+.fa-facebook:hover {
     color: #1773EA;
 }
   
-  .fa-instagram:hover {
+.fa-instagram:hover {
     color: #B32E87;
 }
   
-  .fa-twitter:hover {
+.fa-twitter:hover {
     color: #1C9CEA;
 }
 
-  .ftl:hover{
-    color: #1091d6;
+/* Can't get hover to work  Home Module and Projects*/
+.ftl:hover{
+    color: #000000;
     transition: all 0.3s ease;
 }
 
