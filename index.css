@@ -1,23 +1,23 @@
 .slideshow{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center ;
     align-items: center;
-    background-color:purple ;
+    background-color:whitesmoke ;
 
 }
 
 .slider{
-    width: 800px;
+    width: 600px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides{
-    width:500px;
+    width:500%;
     height: 500px;
     display: flex;
 }
@@ -32,20 +32,20 @@ display: none;
 }
 
 .slide img{
-    width: 200px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
 }
 
 .navigation-manual{
     position: absolute;
-    width: 800px;
+    width: 600px;
     margin-top: -40px;
     display: flex;
     justify-content: center ;
 }
 
 .manual-btn{
-    border: 2px solid red;
+    border: 2px solid #047aed;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -58,7 +58,7 @@ display: none;
 }
 
 .manual-btn:hover{
-    background: beige;
+    background: #1091d6;
 }
 
 #slidebtn1:checked ~ .first{
@@ -75,4 +75,37 @@ display: none;
 
 #slidebtn4:checked ~ .first{
     margin-left: -60%;
+}
+
+/* Auto move */
+.navigaton-auto{
+    position:absolute;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigaton-auto div{
+border: 2px solid #1091d6;
+padding: 5px;
+border-radius: 10px;
+transition: 1s;
+}
+
+.navigaton-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#slidebtn1:checked ~ .navigaton-auto .auto-btn1{
+    background: #047aed;
+}
+#slidebtn2:checked ~ .navigaton-auto .auto-btn2{
+    background: #047aed;
+}
+#slidebtn3:checked ~ .navigaton-auto .auto-btn3{
+    background: #047aed;
+}
+#slidebtn4:checked ~ .navigaton-auto .auto-btn4{
+    background: #047aed;
 }
