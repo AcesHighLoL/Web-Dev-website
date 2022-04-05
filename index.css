@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center ;
     align-items: center;
+    overflow: auto;
     /*background-color:whitesmoke ;*/
 
 }
@@ -115,7 +116,8 @@ transition: 1s;
 div.about_us_section{
    /* background: black; */
     color: white;
-    
+    overflow: auto;
+    height: auto;   
 }
 
 .about_us_container{
@@ -129,17 +131,17 @@ div.about_us_section{
     display: flex;
     flex-direction: column;
     padding: 2vw 2vw;
-    width: 90%;
-    max-width: 900px;
+    width: 50%;
     border-radius: 10px;
     margin:auto;
     overflow: auto;
+    justify-self:center;
 }
 
 p.about_paragraph{
-    margin-left: 10px;
-    margin-bottom: 40px;
+    margin: 5% 10%;
     font-size: 1.1em;
+    overflow:auto;
 }
 
 .about_header{
@@ -149,7 +151,6 @@ p.about_paragraph{
     background-color: white;
     /*background-color:#1091d6;*/
     /*background-image: linear-gradient(to top, #1091d6 0%, rgb(255, 255, 255) 100%);*/
-    background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -162,10 +163,10 @@ p.about_paragraph{
 
 .background-color{
     /*background:linear-gradient(45deg, black, #047aed);*/
-    background: linear-gradient(-45deg, black, #002240, #003366, #0052a3);
+    background: linear-gradient(-45deg, black, #002240, #003366, #1091d6);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 100%;
 }
 
 @keyframes gradient {
