@@ -44,9 +44,11 @@
         
         </section>
         <hr>
-
+        <footer class="data">
+            <div class="data">
+                <div>
         <h2 style="text-align: justify;">What is HTML?</h2>
-        <br>
+        
 
         <p style="text-align: justify;">
     
@@ -56,56 +58,164 @@
         for creating a webpage. HTML is the skeleton of a webpage. It consists of of
         many elements that provides the structure of a website. When creating a webpage, 
         you want to differentiate different titles and headings. You want the computer to know "this is 
-        a header so it must stand out a these are the paragraphs".
-
-        * add more
+        a header so it must stand out a these are the paragraphs". 
+            
         </p>
    
-    
-        <br>
-        <h2>
+    </div>
+</div>
+</footer>
+
+        <h3>
             How Is Understanding HTML helpful?
-        </h2>
-        <br>
+        </h3>
+        
 
         <p style="text-align: justify;">
 
-            
-<li>
-    (will make bullets)
-</li>
+        Learning HTML is helpful because it allows web developers to create codes that becomes pararagraphs, sections, and 
+        links on a webpage. HTML is responsible for how elements are displayed on webpages
+        It is the reason for why clickable links are able to bring you to another landing page.
+        HTML makes it possible to layout a webpage similar to that of a Microsoft Word document.
+
 <br>
         
         </p>
-        <br>
-        <h2>Some Simple HTML Terminology</h2>
-        <br>
+        
+        <h3>Some Simple HTML Terminology</h3>
+    
 
         <p>
-            *add something
+          HTML elements are represented by <b>&lt &gt</b> tags. Here are some quick and easy element in HTML:
+
+        <li> All HYML documents begin with the document declaration: <b>&lt !DOCTYPE html &gt </b> </li>
+       
+        <li> <b>&lt html &gt </b>  is the root element in a HTML page </li>
+        <li> <b>&lt title &gt </b> specifies the title of that document </li>
+        <li> <b>&lt body &gt </b> contains the page content including but not limited to paragraphs and subheadings </li>
+        <li> <b>&lt h1 &gt </b> is the largest heading (if you want to create a subheading, you can use <b>&lt h2 &gt </b> to make the title smaller than <b>&lt h1 &gt </b>) </li>
+        <li> <b>&lt p &gt </b> defines every paragraph </li>
+            
+
         </p>
 
-        <h2>A Bit Deeper</h2>
-        <br>
+       
+
+        <h3>A Dive Deeper</h3>
+      
+       
 
         <p>
-            *add something
-        </p>
+            Once you have your basic HTML tags down you want your code to be more advanced
 
+            <br>
+
+            <footer class="tag">
+                <div class="tags">
+                    <div>
+
+                        Here are some more elements to know:
+                       
+                        <br>
+
+            <li> <b>&lt button &gt </b> tags create buttons <button>Button</button>  It can come in handy for when you are creating something interactive.
+            Additional code would have to be written so that the button could be functional</li>
+            
+
+            <br>
+
+            The code would look something like this:
+
+            <br>
+            <br>
+
+            &lt !DOCTYPE html> <br>
+            &lt html &gt <br> 
+            &lt head> <br>
+            &lt title> This is a title &lt /title> <br>
+            &lt /head> <br>
+            &lt body> <br>
+            &lt button onclick="window.location.href='https://w3docs.com';"> <br>
+      Click Here <br>
+      &lt /button> <br>
+      &lt /body> <br>
+      &lt /html> <br>
+
+
+
+            <br>
+
+            And the outcome would look like this:
+            
+            <button onclick="window.location.href='https://w3docs.com';">
+                Click Here
+            </button>
+            
+            <li> <b>&lt br &gt </b> creates a break between to lengthy sentences. You don't want your body paragraphs to be filled with words with no seperation. 
+            The <b>&lt br &gt </b> tag will help keep different topics seperated and this will make the document easier to read.  </li>
+            <li> <b>&lt li &gt </b> creates a bullet so you can list things </li> 
+
+            <li> <b>&lt table &gt </b> creates tables. </li> 
+        
+            <br>
+
+            <table border = "1">
+                <tr>
+                   <th>Team</th>
+                   <th>Ranking</th>
+                </tr>
+                
+                <tr>
+                   <td>Info</td>
+                   <td>1</td>
+                </tr>
+                
+                <tr>
+                   <td>Inf02</td>
+                   <td>2</td>
+                </tr>
+                
+                <tr>
+                   <td>Info3</td>
+                   <td>3</td>
+                </tr>
+             </table>
+           
+            <li> <b>&lt img src &gt </b> adds images. </li>
+            
+            <img src="https://html.sammy-codes.com/images/small-profile.jpeg">
+            
+            
+            <br>
+            The format for adding images:
+            &lt img src="images/imageexample_image.jpeg" alt="description for visually-impaired readers">
+            
+
+             
+    </p>
+
+</div>
+</div>
+</footer>
+
+        <br>
 
         <h2>
             Applying What You Have Learned
         </h2>
-        <br>
+        
         <p style="text-align: justify;"> 
             
             Below is a short quiz to test what you have read above.
+            
   
+
 <style>
     
 body {
 background-color: lightblue;
 font-family: Helvetica;
+margin: 20px;
 }
 
 label {
@@ -114,50 +224,129 @@ display: block;
 
 input {
 width: 30px;
-margin-left: 20px;
+margin: 20px;
 }
 
-h2 {
+p {
+    margin: 20px;
+}
+
+h2 {   
 clear: both;
 padding-top: 20px;
+margin: 20px;
+}
+
+h3 {   
+clear: both;
+padding-top: 20px;
+margin: 20px;
 }
 
 button {
 width: 100px;
-margin-top: 20px;
+margin: 20px;
 }
 
-</style>
+.videos{
+    background-color: hsla(204, 75%, 46%, 0.692);
+    margin: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form1{
+    background-color: hsl(184, 97%, 47%);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.tag{
+    background-color: hsl(155, 97%, 47%);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tags{
+    background-color: hsl(170, 97%, 47%);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    background-color: hsl(184, 97%, 47%);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
+
+
+</style>
+           
+<footer class="form1">
+    <div class="form1">
+        <div>
+      
             <form id="form1">
+                <br>
+                <br>
                 <h4> Question 1 </h4>
+                
+                <br>
+
                 <h5>HTML stand for</h5>
                 <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Home Tools and Makeup Language.</label>
                 <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />Hyperlinks and Texts Markup Language.</label>
                 <label for="var_info"><input type="radio" name="variable" value="25" id="var_info" />Hyper Text Markup Language.</label>
-                <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Hot Tots Makeup Language.</label>
+                <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Hot Tots Makeout Language.</label>
                 
-                <h4>Question 2</h4>
-                <h5></h5>
-                <label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>A1.</label>
-                <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>A2.</label>
-                <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />A3.</label>
-                <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />A4.</label>
-                
-                <h4>Question 3</h4>
-                <h5></h5>
-                <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />A1.</label>
-                <label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A2.</label>
-                <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />A3.</label>
-                <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />A4.</label>
-                
-                <h4>Question 4</h4>
-                <h5></h5>
-                <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />A1.</label>
-                <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A2.</label>
-                <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />A3.</label>
-                <label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />A4.</label>
                 <br>
+
+                <h4>Question 2</h4>
+
+                <br>
+
+                <h5>If you wanted to create a HTML file, what is the first code you would write</h5>
+                <label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/> &lt !DOCTYPE html &gt </label>
+                <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/> &lt title &gt </label>
+                <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" /> &lt h1 &gt </label>
+                <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" /> &lt body &gt </label>
+                
+                <br>
+
+                <h4>Question 3</h4>
+
+                <br>
+
+                <h5> Inside an image tag, what is <u>alt </u>   used for?</h5>
+                <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />This code is a refrence used to seach where the image is stored on the computer.</label>
+                <label for="cat_join"><input type="radio" name="con" value="0" id="cat_join" />This code is ALT = A Less Than sign (&lt).</label>
+                <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />This code is an alternative tag for the coder's refrence to remind them what image they used.</label>
+                <label for="cat_condition"><input type="radio" name="con" value="25" id="cat_condition" />This code is an alternative tag to let screen readers know what the image is.</label>
+                
+                <br>
+
+                <h4>Question 4</h4>
+
+                <br>
+
+                <h5> What do  <b>&lt p &gt </b> tags do </h5>
+                <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Create a break between two paragraphs.</label>
+                <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Create a bulleted list.</label>
+                <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Add an image.</label>
+                <label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Define paragraphs.</label>
+                
+                <br>
+
                 <button type="submit" value="Submit">Submit</button>
                 
                 </form>
@@ -182,17 +371,22 @@ margin-top: 20px;
                     } //this ends the submit function
                     
                     </script>
-                    
+
+</div>
+</div>
+</footer>
+                  
                     
 
 <br> 
 
-For a more in dept HTML quiz go to <a href="https://www.w3schools.com/HTML/html_quiz.asp" target="_blank">W3Schools</a>
+For a more in depth HTML quiz go to <a href="https://www.w3schools.com/HTML/html_quiz.asp" target="_blank"> W3Schools</a>
         
 <br>
 
 For a closer look on the basics of HTML, watch the video below.
         </p>
+        <div class = "videos">
         <h2>
             Additonal Resources   
         </h2>
@@ -209,7 +403,7 @@ For a closer look on the basics of HTML, watch the video below.
 
         </p>
 
-        <p style="text-align: justify;">
+        <p style="text-align: justify;" class = "videos">
 
 
         <iframe width="640" height="360" 
@@ -220,7 +414,10 @@ For a closer look on the basics of HTML, watch the video below.
         </iframe>
        
         </p>
+
+
         <hr>
+    </div>
 
         <!--Footer of webpage-->
 
@@ -243,6 +440,7 @@ For a closer look on the basics of HTML, watch the video below.
             <a href="https://www.facebook.com/" target="_blank"><i class = "fab fa-facebook fa-2x"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class = "fab fa-instagram fa-2x"></i></a>
             <a href="https://twitter.com/?lang=en" target="_blank"><i class = "fab fa-twitter fa-2x"></i></a>
+
         </div>
     </div>
 </footer>
