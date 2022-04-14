@@ -140,8 +140,9 @@ div.about_us_section{
 
 p.about_paragraph{
     margin: 5% 10%;
-    font-size: 1.1em;
+    font-size:1.4em;
     overflow:auto;
+    text-justify: auto;
 }
 
 .about_header{
