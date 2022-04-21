@@ -1,11 +1,12 @@
 .slideshow{
     margin: 0;
     padding: 0;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     justify-content: center ;
     align-items: center;
-    background-color:whitesmoke ;
+    overflow: auto;
+    /*background-color:whitesmoke ;*/
 
 }
 
@@ -109,3 +110,75 @@ transition: 1s;
 #slidebtn4:checked ~ .navigaton-auto .auto-btn4{
     background: #047aed;
 }
+
+/* About section */
+
+div.about_us_section{
+   /* background: black; */
+    color: white;
+    overflow: auto;
+    height: auto;   
+}
+
+.about_us_container{
+    /*max-width: 950px;
+    margin:0 auto;
+    overflow: auto;
+    padding: 0 30px;
+    */
+    align-items: center;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    width: 50%;
+    border-radius: 10px;
+    margin:auto;
+    overflow: auto;
+    justify-self:center;
+}
+
+p.about_paragraph{
+    margin: 5% 10%;
+    font-size:1.4em;
+    overflow:auto;
+    text-justify: auto;
+}
+
+.about_header{
+
+    margin: 10px;
+    margin-top: 20px;
+    background-color: white;
+    /*background-color:#1091d6;*/
+    /*background-image: linear-gradient(to top, #1091d6 0%, rgb(255, 255, 255) 100%);*/
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+
+}
+
+.background-color{
+    /*background:linear-gradient(45deg, black, #047aed);*/
+    background: linear-gradient(-45deg, black, #002240, #003366, #1091d6);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
