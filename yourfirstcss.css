@@ -8,8 +8,14 @@
     box-sizing:border-box;
 }
 
-html{
+/* html{
     font-size: 60%;
+} */
+
+.videos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .beginner .heading{
@@ -23,14 +29,14 @@ html{
     text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
 }
 
-.video-container{
+.video-con{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.video-container .video{
-    height:48rem;
+.video-con .video{
+    height: 30rem;
     width: 45%;
     margin: 2rem;
     box-shadow: 0 0rem 100rem #1091d6;
@@ -38,7 +44,7 @@ html{
     border-radius: 5rem;
 }
 
-.video-container .video video{
+.video-con .video video{
     height:100%;
     width:100%;
     object-fit: cover;
@@ -47,7 +53,7 @@ html{
     cursor: pointer;
 }
 
-.video-container .video video:hover{
+.video-con .video video:hover{
     transition: .2s linear;
     transform: scale(1.3);
 }
