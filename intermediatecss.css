@@ -8,9 +8,9 @@
     box-sizing:border-box;
 }
 
-html{
+/* html{
     font-size: 60%;
-}
+} */
 
 .intermediate .heading{
     font-size: 3rem;
@@ -30,12 +30,13 @@ html{
 }
 
 .intcss-container .video1{
-    height:48rem;
+    height:30rem;
     width: 45%;
     margin: 2rem;
     box-shadow: 0 0rem 100rem #1091d6;
     overflow: hidden;
     border-radius: 5rem;
+    
 }
 
 .intcss-container .video1 video1{
@@ -61,6 +62,12 @@ h3{
     color: #1091d6;
     padding:.5rem 0;
     text-align: center;
+}
+
+.videos1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 
